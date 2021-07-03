@@ -1,0 +1,30 @@
+.contentRow__head {
+  margin-left: 30px;
+  font-size: 22px;
+}
+
+@media (max-width: 800px) {
+  .contentRow__head {
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  .contentRow__posters {
+    display: flex;
+    padding: 10px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin-bottom: 20px;
+  }
+
+  .contentRow__posters::-webkit-scrollbar {
+    display: none;
+  }
+
+  .contentRow__poster {
+    margin-right: 3px;
+    border-radius: 7%;
+    min-width: 110px;
+    object-fit: contain;
+    max-height: 140px;
+  }
+}

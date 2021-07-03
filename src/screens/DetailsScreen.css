@@ -1,0 +1,80 @@
+.detailsScreen {
+  background-color: #0c111b;
+  padding-bottom: 30px;
+}
+
+.detailsScreen__trailerContainer {
+  padding-bottom: 30px;
+}
+
+.detailsScreen__trailerHead {
+  margin-left: 30px;
+  font-size: 22px;
+}
+
+.detailsScreen__trailerPic {
+  margin-top: 20px;
+  object-fit: contain;
+  margin-left: 30px;
+  height: 130px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  mask-image: linear-gradient(to top, transparent 25%, #1f2434 60%);
+}
+
+.detailsScreen__trailerTitle {
+  margin-top: -70px;
+  font-size: 15px;
+  text-decoration: none;
+  margin-left: 35px;
+  max-width: 200px;
+}
+
+.detailsScreen__player {
+  margin-top: 71px;
+  top: 0;
+  left: 0;
+}
+.detailsScreen__playerClose {
+  right: 20;
+}
+
+@media (max-width: 800px) {
+  .detailsScreen {
+    padding-bottom: 200px;
+  }
+
+  .detailsScreen__trailerContainer {
+    padding-bottom: 200px;
+  }
+  .detailsScreen__trailerHead {
+    margin-top: 25px;
+    margin-left: 10px;
+    font-size: 18px;
+  }
+
+  .detailsScreen__trailerPic {
+    margin-top: 10px;
+    object-fit: contain;
+    margin-left: 10px;
+    height: 120px;
+    width: 200px;
+    margin-bottom: 30px;
+    border-radius: 8%;
+    mask-image: linear-gradient(to top, transparent 25%, #1f2434 60%);
+  }
+
+  .detailsScreen__trailerTitle {
+    margin-top: -70px;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 15px;
+    max-width: 200px;
+  }
+  .detailsScreen__player {
+    margin-top: 66px;
+    top: 0;
+    left: 0;
+  }
+}

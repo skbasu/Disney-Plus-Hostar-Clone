@@ -1,0 +1,18 @@
+.imageSlider {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+@media (max-width: 800px) {
+  .imageSlider {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+  }
+  .imageSlider__leftArrow {
+    display: none;
+  }
+  .imageSlider__rightArrow {
+    display: none;
+  }
+}
